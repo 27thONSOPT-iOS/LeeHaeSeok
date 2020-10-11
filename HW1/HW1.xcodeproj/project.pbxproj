@@ -53,6 +53,7 @@
 		1C2F0B872532DC670030C754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C2F0BAC2532E6240030C754 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1C2F0BB12532E64C0030C754 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1C2F0BBE2532F5810030C754 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		1C2F0B572532DC650030C754 = {
 			isa = PBXGroup;
 			children = (
+				1C2F0BBE2532F5810030C754 /* README.md */,
 				1C2F0B622532DC650030C754 /* HW1 */,
 				1C2F0B792532DC670030C754 /* HW1Tests */,
 				1C2F0B842532DC670030C754 /* HW1UITests */,
