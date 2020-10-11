@@ -3,7 +3,7 @@
 ### 로그인
 
 
-![title](https://github.com/27thONSOPT-iOS/LeeHaeSeok/blob/master/images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-10-11%20%EC%98%A4%ED%9B%84%205.11.07.png=100x)
+![title](https://github.com/27thONSOPT-iOS/LeeHaeSeok/blob/master/images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-10-11%20%EC%98%A4%ED%9B%84%205.11.07.png=100x500)
 
 ### 프로필
 
