@@ -23,36 +23,6 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FV7-ES-yYj" userLabel="Main View">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="2991"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tUX-dd-Tc3" userLabel="Header">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soptLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Tyf-Dv-bY8">
-                                                        <rect key="frame" x="17" y="95" width="62" height="23"/>
-                                                    </imageView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLm-cc-130">
-                                                        <rect key="frame" x="228" y="91" width="132" height="32"/>
-                                                        <color key="backgroundColor" name="SOPTyellow"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="132" id="E3a-zm-ize"/>
-                                                            <constraint firstAttribute="height" constant="32" id="tYK-o4-Dyn"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                                        <inset key="titleEdgeInsets" minX="23" minY="7" maxX="22" maxY="6"/>
-                                                        <state key="normal" title="프로필 작성하기">
-                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="sLm-cc-130" secondAttribute="bottom" constant="12" id="0v6-uW-YKr"/>
-                                                    <constraint firstAttribute="height" constant="135" id="caO-0V-2qg"/>
-                                                    <constraint firstItem="Tyf-Dv-bY8" firstAttribute="leading" secondItem="tUX-dd-Tc3" secondAttribute="leading" constant="17" id="dBM-5d-7d7"/>
-                                                    <constraint firstItem="sLm-cc-130" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Tyf-Dv-bY8" secondAttribute="trailing" constant="8" symbolic="YES" id="tpR-wH-0Jh"/>
-                                                    <constraint firstAttribute="trailing" secondItem="sLm-cc-130" secondAttribute="trailing" constant="15" id="v6a-mb-vbd"/>
-                                                    <constraint firstAttribute="bottom" secondItem="Tyf-Dv-bY8" secondAttribute="bottom" constant="17" id="zU8-7Y-hMz"/>
-                                                </constraints>
-                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zg5-uF-ykk" userLabel="Banner">
                                                 <rect key="frame" x="0.0" y="135" width="375" height="420"/>
                                                 <subviews>
@@ -826,17 +796,13 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="Zg5-uF-ykk" firstAttribute="top" secondItem="tUX-dd-Tc3" secondAttribute="top" constant="135" id="1bF-fG-hUK"/>
                                             <constraint firstItem="Zg5-uF-ykk" firstAttribute="leading" secondItem="FV7-ES-yYj" secondAttribute="leading" id="57k-Tp-g6t"/>
                                             <constraint firstAttribute="trailing" secondItem="Zg5-uF-ykk" secondAttribute="trailing" id="DMS-ig-Dl5"/>
                                             <constraint firstItem="78I-tF-fJ6" firstAttribute="leading" secondItem="FV7-ES-yYj" secondAttribute="leading" constant="145" id="Dgi-76-ebe"/>
-                                            <constraint firstItem="Zg5-uF-ykk" firstAttribute="top" secondItem="tUX-dd-Tc3" secondAttribute="bottom" id="J6T-Xr-u1y"/>
+                                            <constraint firstItem="Zg5-uF-ykk" firstAttribute="top" secondItem="FV7-ES-yYj" secondAttribute="top" constant="135" id="H3Y-Pq-f1h"/>
                                             <constraint firstAttribute="bottom" secondItem="78I-tF-fJ6" secondAttribute="bottom" id="NPn-tu-sQ2"/>
-                                            <constraint firstAttribute="trailing" secondItem="tUX-dd-Tc3" secondAttribute="trailing" id="RQn-zT-wiI"/>
-                                            <constraint firstItem="tUX-dd-Tc3" firstAttribute="leading" secondItem="FV7-ES-yYj" secondAttribute="leading" id="S52-0U-hJq"/>
                                             <constraint firstAttribute="trailing" secondItem="78I-tF-fJ6" secondAttribute="trailing" id="c3o-qB-2dI"/>
                                             <constraint firstItem="78I-tF-fJ6" firstAttribute="top" secondItem="Zg5-uF-ykk" secondAttribute="bottom" constant="40" id="hHn-Zp-SZX"/>
-                                            <constraint firstItem="tUX-dd-Tc3" firstAttribute="top" secondItem="FV7-ES-yYj" secondAttribute="top" id="xGj-TZ-o29"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -847,6 +813,36 @@
                                     <constraint firstItem="FV7-ES-yYj" firstAttribute="top" secondItem="oDH-D8-DtW" secondAttribute="top" id="qkd-Tg-w1z"/>
                                 </constraints>
                             </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tUX-dd-Tc3" userLabel="Header">
+                                <rect key="frame" x="0.0" y="-6" width="375" height="185"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soptLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Tyf-Dv-bY8">
+                                        <rect key="frame" x="17" y="145" width="62" height="23"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLm-cc-130">
+                                        <rect key="frame" x="228" y="141" width="132" height="32"/>
+                                        <color key="backgroundColor" name="SOPTyellow"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="132" id="E3a-zm-ize"/>
+                                            <constraint firstAttribute="height" constant="32" id="tYK-o4-Dyn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                        <inset key="titleEdgeInsets" minX="23" minY="7" maxX="22" maxY="6"/>
+                                        <state key="normal" title="프로필 작성하기">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="sLm-cc-130" secondAttribute="bottom" constant="12" id="0v6-uW-YKr"/>
+                                    <constraint firstAttribute="height" constant="185" id="caO-0V-2qg"/>
+                                    <constraint firstItem="Tyf-Dv-bY8" firstAttribute="leading" secondItem="tUX-dd-Tc3" secondAttribute="leading" constant="17" id="dBM-5d-7d7"/>
+                                    <constraint firstItem="sLm-cc-130" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Tyf-Dv-bY8" secondAttribute="trailing" constant="8" symbolic="YES" id="tpR-wH-0Jh"/>
+                                    <constraint firstAttribute="trailing" secondItem="sLm-cc-130" secondAttribute="trailing" constant="15" id="v6a-mb-vbd"/>
+                                    <constraint firstAttribute="bottom" secondItem="Tyf-Dv-bY8" secondAttribute="bottom" constant="17" id="zU8-7Y-hMz"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -854,7 +850,10 @@
                             <constraint firstItem="FV7-ES-yYj" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" priority="250" id="1gj-w1-ytK"/>
                             <constraint firstItem="oDH-D8-DtW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Av0-FB-nlW"/>
                             <constraint firstItem="FV7-ES-yYj" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="UR4-ve-NbX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tUX-dd-Tc3" secondAttribute="trailing" id="aRf-fd-ws2"/>
+                            <constraint firstItem="tUX-dd-Tc3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-50" id="cPG-Qf-alO"/>
                             <constraint firstItem="oDH-D8-DtW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dwt-JQ-dxR"/>
+                            <constraint firstItem="tUX-dd-Tc3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hb6-QS-L0m"/>
                             <constraint firstAttribute="bottom" secondItem="oDH-D8-DtW" secondAttribute="bottom" id="j3t-ga-b6B"/>
                             <constraint firstItem="oDH-D8-DtW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uTf-oM-aCo"/>
                         </constraints>
