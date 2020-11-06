@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C60E9ED25550F3D00E1AC96 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C60E9EC25550F3D00E1AC96 /* Header.swift */; };
+		1C60E9F225550F9800E1AC96 /* BannerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C60E9F125550F9800E1AC96 /* BannerHeaderView.swift */; };
 		1C8D2E1B2553C3A3004BA8FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8D2E1A2553C3A3004BA8FB /* AppDelegate.swift */; };
 		1C8D2E1D2553C3A3004BA8FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8D2E1C2553C3A3004BA8FB /* SceneDelegate.swift */; };
 		1C8D2E1F2553C3A3004BA8FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8D2E1E2553C3A3004BA8FB /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C60E9EC25550F3D00E1AC96 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		1C60E9F125550F9800E1AC96 /* BannerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerHeaderView.swift; sourceTree = "<group>"; };
 		1C8D2E172553C3A3004BA8FB /* HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C8D2E1A2553C3A3004BA8FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C8D2E1C2553C3A3004BA8FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +145,7 @@
 			children = (
 				1CF5034E2554817800321A5A /* Main.storyboard */,
 				1CF5034F2554817800321A5A /* ProfileCell.swift */,
+				1C60E9F125550F9800E1AC96 /* BannerHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				1CF503502554817800321A5A /* Profile.swift */,
+				1C60E9EC25550F3D00E1AC96 /* Header.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -294,6 +300,8 @@
 				1C8D2E5E25547A4A004BA8FB /* Constants.swift in Sources */,
 				1CF503532554817800321A5A /* Profile.swift in Sources */,
 				1C8D2E1F2553C3A3004BA8FB /* ViewController.swift in Sources */,
+				1C60E9F225550F9800E1AC96 /* BannerHeaderView.swift in Sources */,
+				1C60E9ED25550F3D00E1AC96 /* Header.swift in Sources */,
 				1C8D2E1B2553C3A3004BA8FB /* AppDelegate.swift in Sources */,
 				1C8D2E1D2553C3A3004BA8FB /* SceneDelegate.swift in Sources */,
 				1CF503522554817800321A5A /* ProfileCell.swift in Sources */,

@@ -9,4 +9,5 @@ import Foundation
 
 struct MyConstants {
     static let profileCellIdentifier = "ProfileCell"
+    static let bannerHeaderIdentifier = "BannerHeaderView"
 }
