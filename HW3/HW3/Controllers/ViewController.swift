@@ -25,10 +25,6 @@ class ViewController: UIViewController, UICollectionViewDelegate {
         Profile(imageName: "juhyeok", name: "이주혁", hashtag: "#hereis #아요 #내꿈은 \n#사과농장 #ENFP"),
     ]
     
-    let headers: [Header] = [
-        Header(imageName: "banner", title: "SOPT + NETWORKING", info: "대학생 연합 IT 창업 동아리의 네트워킹을 위한 플랫폼입니다.  ")
-    ]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -66,11 +62,25 @@ extension ViewController: UICollectionViewDataSource {
             return UICollectionReusableView()
         }
         
-//        header.setImage(imageName: headers[indexPath.item].imageName)
-//        header.setTitle(title: headers[indexPath.item].title)
-//        header.setInfo(info: headers[indexPath.item].info)
-        
         return header
     }
+    
+}
+
+
+extension ViewController: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        5
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        5
+    }
+    
     
 }

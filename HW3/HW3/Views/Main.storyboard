@@ -25,11 +25,11 @@
                                     <size key="itemSize" width="180" height="250"/>
                                     <size key="headerReferenceSize" width="375" height="375"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="12" minY="0.0" maxX="12" maxY="30"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="30"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" reuseIdentifier="ProfileCell" id="vIo-d1-GBg" customClass="ProfileCell" customModule="HW3" customModuleProvider="target">
-                                        <rect key="frame" x="97.666666666666671" y="375" width="180" height="250"/>
+                                        <rect key="frame" x="0.0" y="375" width="180" height="250"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="NAl-vJ-sDX">
                                             <rect key="frame" x="0.0" y="0.0" width="180" height="250"/>
@@ -80,7 +80,6 @@
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JKZ-sh-jfq" secondAttribute="trailing" constant="20" symbolic="YES" id="rVj-pj-scC"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="180" height="250"/>
                                         <connections>
                                             <outlet property="profileHashtag" destination="VIW-tk-SjO" id="5JX-uT-kcP"/>
                                             <outlet property="profileImageView" destination="o3J-vq-Xsg" id="pCX-Hu-6H7"/>
