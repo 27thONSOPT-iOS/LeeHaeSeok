@@ -20,6 +20,7 @@
 		1C1758C1255DA93B004B91E5 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1758C0255DA93B004B91E5 /* ProfileCell.swift */; };
 		1C1758D1255DACCD004B91E5 /* BannerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1758D0255DACCD004B91E5 /* BannerHeaderView.swift */; };
 		1C1758DC255DAE35004B91E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1758DB255DAE35004B91E5 /* MainViewController.swift */; };
+		1C20401F255E64F900B31DE0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20401E255E64F900B31DE0 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		1C1758C0255DA93B004B91E5 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		1C1758D0255DACCD004B91E5 /* BannerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerHeaderView.swift; sourceTree = "<group>"; };
 		1C1758DB255DAE35004B91E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1C20401E255E64F900B31DE0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			children = (
 				1C175876255D81B9004B91E5 /* ProfileViewController.swift */,
 				1C1758DB255DAE35004B91E5 /* MainViewController.swift */,
+				1C20401E255E64F900B31DE0 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C20401F255E64F900B31DE0 /* LoginViewController.swift in Sources */,
 				1C175877255D81B9004B91E5 /* ProfileViewController.swift in Sources */,
 				1C1758B2255DA8FC004B91E5 /* Profile.swift in Sources */,
 				1C1758D1255DACCD004B91E5 /* BannerHeaderView.swift in Sources */,
