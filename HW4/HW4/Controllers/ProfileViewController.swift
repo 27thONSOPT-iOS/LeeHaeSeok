@@ -12,6 +12,9 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate {
 
     @IBOutlet weak var profileCollectionView: UICollectionView!
     
+    @IBOutlet weak var headerView: UIView!
+    
+    
     let profiles: [Profile] = [
         Profile(imageName: "juhyeok", name: "이주혁", hashtag: "#hereis #아요 #내꿈은 \n#사과농장 #ENFP"),
         Profile(imageName: "juhyeok", name: "이주혁", hashtag: "#hereis #아요 #내꿈은 \n#사과농장 #ENFP"),
@@ -84,4 +87,19 @@ extension ProfileViewController: UICollectionViewDelegateFlowLayout {
     }
     
     
+}
+
+
+extension ProfileViewController {
+
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        print("드래그 시작")
+        headerView.isHidden = true
+    }
+    
+    
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        print("드래그 끝")
+        headerView.isHidden = false
+    }
 }
