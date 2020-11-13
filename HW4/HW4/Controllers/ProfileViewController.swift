@@ -98,7 +98,7 @@ extension ProfileViewController {
         UIView.animate(
             withDuration: 1.0,
             animations: { () -> Void in
-                self.view.frame = CGRect(x: 0, y: -88, width: self.view.frame.width, height: self.view.frame.height)
+                self.view.frame = CGRect(x: 0, y: -88, width: self.view.frame.width, height: self.view.frame.height + 88)
             }
         )
     }

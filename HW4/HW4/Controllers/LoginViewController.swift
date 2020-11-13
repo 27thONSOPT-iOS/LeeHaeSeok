@@ -16,7 +16,6 @@ class LoginViewController: UIViewController{
         super.viewDidLoad()
         partTextField.delegate = self
         nameTextField.delegate = self
-        // Do any additional setup after loading the view.
     }
 
 }
@@ -25,14 +24,19 @@ extension LoginViewController: UITextFieldDelegate{
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
         print("텍스트 입력 시작");
+        self.view.transform = CGAffineTransform(translationX: 0, y: -100)
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
+        self.view.transform = CGAffineTransform(translationX: 0, y: 0)
         print("텍스트 입력 끝");
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.endEditing(true)
+        partTextField.endEditing(true)
+        nameTextField.endEditing(true)
+        self.view.transform = CGAffineTransform(translationX: 0, y: 0)
+        
         return true
     }
 }
