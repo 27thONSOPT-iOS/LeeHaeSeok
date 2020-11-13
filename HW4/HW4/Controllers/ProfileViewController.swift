@@ -94,12 +94,25 @@ extension ProfileViewController {
 
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         print("드래그 시작")
-        headerView.isHidden = true
+
+        UIView.animate(
+            withDuration: 1.0,
+            animations: { () -> Void in
+                self.view.frame = CGRect(x: 0, y: -88, width: self.view.frame.width, height: self.view.frame.height)
+            }
+        )
     }
     
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         print("드래그 끝")
-        headerView.isHidden = false
+        
+        UIView.animate(
+            withDuration: 1.0,
+            animations: { () -> Void in
+                self.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
+                
+            }
+        )
     }
 }
