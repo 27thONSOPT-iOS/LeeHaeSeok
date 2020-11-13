@@ -1,0 +1,6 @@
+framework module Pods_HW4_HW4UITests {
+  umbrella header "Pods-HW4-HW4UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
