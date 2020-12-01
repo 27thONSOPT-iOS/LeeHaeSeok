@@ -62,7 +62,7 @@ struct AuthService {
         let body: Parameters = [
             "email": email,
             "password": password,
-            "username": username
+            "userName": username
         ]
         
         let dataRequest = AF.request(

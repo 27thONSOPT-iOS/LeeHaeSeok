@@ -25,7 +25,6 @@ class LoginViewController: UIViewController {
         present(alert, animated: true)
     }
     
-    
     @IBAction func touchUpLogin(_ sender: Any) {
         guard let emailText = emailTextField.text, let passwordText = passwordTextField.text else {
             return
@@ -55,16 +54,19 @@ class LoginViewController: UIViewController {
         
     }
     
-//    @IBAction func touchUpSignUp(_ sender: Any) {
-//        guard let signUpViewController = self.storyboard?.instantiateViewController(identifier: "SignUpViewController") else {return}
-//                
-//        self.navigationController?.pushViewController(signUpViewController, animated: true)
-//        
-//        //        let signUpViewController = self.storyboard?.instantiateViewController(
-//        //            withIdentifier: "SignUpViewController") as! SignUpViewController
-//        //
-//        //        self.navigationController?.pushViewController(signUpViewController, animated: true)
-//    }
+    @IBAction func touchUpSignUp(_ sender: Any) {
+        
+//        self.performSegue(withIdentifier: "loginToSignUp", sender: self)
+        
+        
+        guard let signUpViewController = self.storyboard?.instantiateViewController(identifier: "SignUpViewController") else {return}
+        self.navigationController?.pushViewController(signUpViewController, animated: true)
+
+        //        let signUpViewController = self.storyboard?.instantiateViewController(
+        //            withIdentifier: "SignUpViewController") as! SignUpViewController
+        //
+        //        self.navigationController?.pushViewController(signUpViewController, animated: true)
+    }
     
         
         

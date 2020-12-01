@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dpk-We-9I9">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
@@ -71,7 +71,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="회원가입"/>
                                 <connections>
-                                    <segue destination="eH4-uw-S7d" kind="show" id="al6-kL-r49"/>
+                                    <action selector="touchUpSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Vv-uu-y3O"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -82,6 +82,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="IcE-xn-o6g" id="H5f-jP-Nhb"/>
                         <outlet property="passwordTextField" destination="NC5-XJ-jfe" id="Zxn-se-1ui"/>
+                        <segue destination="eH4-uw-S7d" kind="show" identifier="loginToSignUp" id="4ZW-A3-HB4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -92,7 +93,7 @@
         <scene sceneID="Tg9-ni-B5n">
             <objects>
                 <viewController storyboardIdentifier="SignUpViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eH4-uw-S7d" customClass="SignUpViewController" customModule="HW6" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Xjb-FL-Q4Z">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="SignUpViewController" id="Xjb-FL-Q4Z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

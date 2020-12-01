@@ -12,8 +12,6 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var usernameTextField: UITextField!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -52,7 +50,7 @@ class SignUpViewController: UIViewController {
             }
         }
         
-        
+//        self.navigationController?.popViewController(animated: true)
         self.dismiss(animated: true, completion: nil)
         _ = self.navigationController?.popViewController(animated: true)
     }
